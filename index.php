@@ -27,12 +27,16 @@
 	//$aluno->insert();
 	//echo $aluno;
 
-	//Fazendo update em um usuários
+	//Fazendo update/alteração em um usuários
+	//$usuario = new Usuario();
+	//$usuario->loadByid(8);
+	//$usuario->update("professor", "456789");
+	//echo $usuario;
+
 	$usuario = new Usuario();
 	$usuario->loadByid(8);
-	$usuario->update("professor", "456789");
+	$usuario->delete();
 	echo $usuario;
-
 
 	/*$sql = new Sql();
 
